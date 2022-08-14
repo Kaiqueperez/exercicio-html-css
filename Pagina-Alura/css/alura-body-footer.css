@@ -1,0 +1,51 @@
+.conteiner-body-footer{
+    display: flex;
+    align-items: flex-start;
+    width: 100vw;
+    height: 77px;
+    align-items: center;
+    column-gap: 15px;
+    margin-left: 74px;
+
+}
+.acesso-curso{
+    background: #5dda7b;
+    padding: 13px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    column-gap: 11px;
+    display: flex;
+}
+.txt-acessa-curso{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.acesso-planoestudo{
+    padding: 10px 17px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid #525c65;
+    column-gap: 11px;
+    display: flex;
+    align-items: center;
+}
+.txt-acesso-planoestudo{
+    font-weight: 600;
+    text-decoration: none;
+    color: #525c65;
+}
+.acesso-outrasacoeas{
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid #525c65;
+    column-gap: 11px;
+    display: flex;
+    align-items: center;
+}
+.txt-acesso-outrasacoeas{
+    font-weight: 600;
+    text-decoration: none;
+    color: #525c65;
+}

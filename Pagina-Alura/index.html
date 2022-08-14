@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Open+Sans:400,300,600,700,800|Source+Serif+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/alura-header.css">
+    <link rel="stylesheet" href="css/alura-body.css">
+    <link rel="stylesheet" href="css/alura-body-footer.css">
+
+    <title>JavaScript: programando na linguaguem da web</title>
+</head>
+<body>
+    <header class="header-usuario">
+
+    <div class="conteiner">
+
+        <div class="conteiner-acesso">
+
+            <div class="link-titulo">
+                <a href="#" class="titulo-alura"><svg xmlns="http://www.w3.org/2000/svg" width="65" height="31" viewBox="0 0 65 31" class="titulo-alura"><path fill="#FFFFFF" fill-rule="evenodd" d="M17.203 0h2.946c.148 0 .272.124.272.272v29.48a.275.275 0 0 1-.272.273h-2.946a.275.275 0 0 1-.272-.273V.272c0-.148.123-.272.272-.272zM37.45 24.257V25c0 .322-.049.767-.173 1.337-.099.544-.396 1.113-.866 1.658-.47.545-1.163 1.04-2.104 1.436-.94.396-2.228.594-3.886.594-1.659 0-2.946-.198-3.886-.594-.94-.396-1.634-.867-2.104-1.436-.47-.545-.768-1.114-.867-1.683-.099-.57-.173-.99-.173-1.312V8.218c0-.149.124-.272.272-.272h2.946c.148 0 .272.123.272.272v15.718c0 .52.074.89.149 1.188.074.297.222.594.445.841.223.273.57.495 1.04.669.445.173 1.064.272 1.832.272.792 0 1.435-.1 1.905-.272.47-.174.817-.396 1.065-.644.247-.247.42-.52.495-.817.074-.297.173-.544.173-1.262V8.218c0-.149.124-.272.272-.272h2.946c.148 0 .272.123.272.272v16.04h-.025zM47.475 7.946h1.98c.174 0 .297.173.248.346l-.668 2.574c-.025.124-.149.198-.248.198h-1.386c-.743 0-1.337.1-1.807.297-.445.198-.817.421-1.064.693a1.991 1.991 0 0 0-.47.817c-.075.297-.1.57-.1.817v16.089a.275.275 0 0 1-.272.273h-2.97a.275.275 0 0 1-.272-.273V12.995c0-.297.049-.743.173-1.312.099-.57.396-1.114.866-1.683.47-.545 1.164-1.04 2.104-1.436.916-.42 2.228-.618 3.886-.618zm-40.47 0c2.4 0 4.158.47 5.297 1.41 1.114.941 1.683 2.13 1.683 3.54V25.025c0 .495-.099 1.04-.272 1.609-.173.594-.52 1.138-1.04 1.609-.52.495-1.237.89-2.128 1.237-.892.322-2.08.495-3.515.495-1.46 0-2.624-.173-3.515-.495s-1.61-.742-2.129-1.237c-.52-.495-.866-1.04-1.04-1.61-.173-.593-.272-1.138-.272-1.608v-1.93c0-1.04.273-1.981.792-2.823.545-.841 1.287-1.46 2.278-1.807.495-.173 1.04-.346 1.683-.569.619-.223 1.237-.42 1.831-.644.594-.198 1.09-.396 1.535-.544.446-.173.718-.248.817-.297.099-.05.247-.124.42-.223.174-.099.347-.247.52-.42.174-.199.298-.421.421-.644.124-.248.174-.545.174-.867v-.767c0-.272-.05-.544-.174-.841-.099-.298-.297-.545-.569-.793-.272-.247-.644-.445-1.09-.594-.445-.148-1.014-.222-1.707-.222-1.361 0-2.277.272-2.772.841a3.019 3.019 0 0 0-.718 1.782c0 .149-.124.248-.272.248H.273A.275.275 0 0 1 0 13.639v-.718c0-.693.124-1.337.396-1.93.248-.595.668-1.14 1.262-1.585.57-.446 1.288-.817 2.179-1.064.866-.248 1.93-.396 3.168-.396zm3.515 10.866a.917.917 0 0 1-.421.619c-.223.148-.42.222-.619.297-.42.148-.866.297-1.336.47-.47.173-.916.347-1.337.47-.495.174-.965.322-1.386.495a4.148 4.148 0 0 0-.94.57c-.248.222-.471.495-.67.841-.197.347-.296.768-.296 1.287 0 1.04.247 1.807.742 2.327.495.495 1.411.767 2.748.767 1.361 0 2.302-.272 2.797-.792.495-.544.743-1.287.743-2.277v-5.074h-.025zm47.5-10.866c2.4 0 4.158.47 5.297 1.41 1.114.941 1.683 2.13 1.683 3.54V25.025c0 .495-.099 1.04-.272 1.609-.174.594-.52 1.138-1.04 1.609-.52.495-1.238.89-2.129 1.237-.89.322-2.079.495-3.514.495-1.46 0-2.624-.173-3.515-.495s-1.61-.742-2.129-1.237c-.52-.495-.866-1.04-1.04-1.61-.173-.593-.272-1.138-.272-1.608v-1.93c0-1.04.272-1.981.792-2.823.545-.841 1.287-1.46 2.277-1.807.495-.173 1.04-.346 1.684-.569.618-.223 1.237-.42 1.831-.644.594-.198 1.09-.396 1.535-.544.445-.173.718-.248.817-.297.099-.05.247-.124.42-.223.174-.099.347-.247.52-.42.174-.199.297-.421.421-.644.124-.248.173-.545.173-.867v-.767c0-.272-.05-.544-.173-.841-.099-.298-.297-.545-.57-.793-.271-.247-.643-.445-1.088-.594-.446-.148-1.015-.222-1.708-.222-1.362 0-2.277.272-2.772.841a3.019 3.019 0 0 0-.718 1.782c0 .149-.124.248-.273.248h-2.97a.275.275 0 0 1-.272-.272v-.718c0-.693.124-1.337.396-1.93.247-.595.668-1.14 1.262-1.585.57-.446 1.287-.817 2.178-1.064.892-.248 1.931-.396 3.169-.396zm3.515 10.866a.917.917 0 0 1-.421.619c-.223.148-.42.222-.619.297-.42.148-.866.297-1.337.47-.47.173-.915.347-1.336.47-.495.174-.966.322-1.386.495a4.148 4.148 0 0 0-.941.57c-.247.222-.47.495-.668.841-.198.347-.297.768-.297 1.287 0 1.04.247 1.807.742 2.327.495.495 1.411.767 2.748.767 1.361 0 2.302-.272 2.797-.792.495-.544.742-1.287.742-2.277v-5.074h-.024z"/></svg></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon-busca" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+            </div>
+
+            
+                <div class="nav-conteiner">
+                    <div class="div-link"><a href="#">MEU APRENDIZADO <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7"><path fill="#FFFFFF" d="M5.995 4.56L2.233.796A1.015 1.015 0 0 0 .797 2.233L5.02 6.455c.264.264.638.352.976.264.338.088.712 0 .976-.264l4.222-4.222A1.015 1.015 0 1 0 9.757.797L5.995 4.56z"/></svg></a></div>
+                    <div class="div-link"><a href="#">CONTEÚDO <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7"><path fill="#FFFFFF" d="M5.995 4.56L2.233.796A1.015 1.015 0 0 0 .797 2.233L5.02 6.455c.264.264.638.352.976.264.338.088.712 0 .976-.264l4.222-4.222A1.015 1.015 0 1 0 9.757.797L5.995 4.56z"/></svg></a></div>
+                    <div class="div-link"><a href="#"> COMUNIDADE <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7"><path fill="#FFFFFF" d="M5.995 4.56L2.233.796A1.015 1.015 0 0 0 .797 2.233L5.02 6.455c.264.264.638.352.976.264.338.088.712 0 .976-.264l4.222-4.222A1.015 1.015 0 1 0 9.757.797L5.995 4.56z"/></svg></a></div>
+                    
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="sininho" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                          </svg>
+                    </button>
+                    <div class="link-exp">
+                        <div class="num-experiencia">
+                            <a href="#" class="link-exp-valor">28.7K </a>
+                            <p class="xp">xp</p>
+                        </div>
+                        
+                        <img src="imgs/blocosalura.png" alt="" class="link-img">
+                    </div>
+                    <div class="acesso-usuario">
+                        <img src="imgs/avatar.webp" alt="" class="img-avatar">
+                        <a href="#" class="usuario">Kaique <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7"><path fill="#747C81" d="M5.995 4.56L2.233.796A1.015 1.015 0 0 0 .797 2.233L5.02 6.455c.264.264.638.352.976.264.338.088.712 0 .976-.264l4.222-4.222A1.015 1.015 0 1 0 9.757.797L5.995 4.56z"/></svg></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <div class="conteiner-cont-curso">
+        <div class="conteiner-curso">
+            <div class="header-links">
+                <a href="#" class="link-front">Front-end    <svg width="7" height="12" fill="none" xmlns="http://www.w3.org/2000/svg" class="link-front-seta"><path d="M.292 9.463l3.88-3.88-3.88-3.88a.996.996 0 111.41-1.41l4.59 4.59c.39.39.39 1.02 0 1.41l-4.59 4.59a.996.996 0 01-1.41 0c-.38-.39-.39-1.03 0-1.42z" fill="#fff"/></svg></a>
+                <a href="#" class="link-front">Cursos de JavaScript</a>
+            </div>
+            <div class="curso-info">
+                <div class="img-js">
+                    <img src="icons/JS.svg" alt="" >
+                </div>
+                <div class="curso-aprensenta">
+                    <p class="para-apresenta-nome">Curso de</p>
+                     <h1 class="aprensenta-nome"> <br>
+                    <strong>JavaScript: programando na linguagem da web</strong></h1>
+                </div>
+                <div class="curso-progresso">
+                    <p class="para-progresso">Progresso</p>
+                    <div class="barra-progresso">
+                        <div class="barrinha-opaca">
+                            <div class="barrinha"></div>
+                        </div>
+                        <p class="porcentagem-progresso">83%</p>
+                    </div>
+                    <div class="info-progresso">
+                        <div class="carga-hora">
+                            <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-progressohora"><path d="M10 0C4.5 0 0 4.5 0 10s4.5 10 10 10 10-4.5 10-10S15.5 0 10 0zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H9v6l5.2 3.2.8-1.3-4.5-2.7V5z" fill="#6D7A86"/></svg>
+
+                            <div class="horaa">
+                                <p class="txt-progresso relogio">Carga Horária</p>
+                                <p class="num-progresso">20H</p>
+                            </div>
+                        </div>
+
+                        <div class="carga-hora">
+                            <svg width="22" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-progressoava"><path d="M8 20h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L13.17 0 6.58 6.59C6.22 6.95 6 7.45 6 8v10c0 1.1.9 2 2 2zM8 8l4.34-4.34L11 9h9v2l-3 7H8V8zM0 8h4v12H0V8z" fill="#6D7A86" /></svg>
+
+                            <div class="avaliacao">
+                                <p class="txt-progresso">Avaliação</p>
+                                <p class="num-progresso">9.1</p>
+                            </div>
+                        </div>
+
+                        <div class="carga-hora">
+                            <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-progressoatt"><path d="M8.917 5.667v5.416l4.604 2.73.834-1.386-3.813-2.264V5.666H8.917zM19.75 7.833V.25l-2.86 2.86A9.682 9.682 0 0010 .25C4.616.25.25 4.616.25 10s4.366 9.75 9.75 9.75 9.75-4.366 9.75-9.75h-2.167c0 4.182-3.401 7.583-7.583 7.583S2.417 14.182 2.417 10 5.818 2.417 10 2.417c2.09 0 3.987.856 5.363 2.22l-3.196 3.196h7.583z" fill="#6D7A86"/></svg>
+
+                            <div class="atualizadoem">
+                                <p class="txt-progresso">Atualizado Em</p>
+                                <p class="num-progresso">24/05/2022</p>
+                            </div>
+                        </div>
+
+                        <div class="carga-hora">
+                            <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-progressoalu"><g clip-path="url(#clip0)" fill-rule="evenodd" clip-rule="evenodd" fill="#6D7A86"><path d="M10 1.833A3.167 3.167 0 006.833 5v.833a3.167 3.167 0 006.334 0V5A3.167 3.167 0 0010 1.833zM4.833 5a5.167 5.167 0 0110.334 0v.833a5.167 5.167 0 01-10.334 0V5zM3.849 13.245c1.621-.442 3.872-.912 6.151-.912 2.28 0 4.53.47 6.152.912a4.325 4.325 0 013.181 4.178v2.744H.667v-2.744a4.326 4.326 0 013.182-4.178zM10 14.333c-2.03 0-4.09.423-5.625.842a2.326 2.326 0 00-1.708 2.248v.744h14.666v-.744c0-1.053-.7-1.974-1.707-2.248-1.536-.42-3.595-.842-5.626-.842z"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h20v20H0z"/></clipPath></defs></svg>
+
+                            <div class="allunos">
+                                <p class="txt-progresso">Alunos(As)</p>
+                                <p class="num-progresso">72.140</p>
+                            </div>
+                        </div>
+
+                        <div class="carga-hora">
+                            <svg width="19" height="18" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-progresso"><path fill-rule="evenodd" clip-rule="evenodd" d="M1 16.14c0-.21.075-.412.207-.561a.672.672 0 01.501-.232h9.917c.188 0 .368.083.5.232.134.149.208.35.208.561 0 .21-.074.412-.207.561a.672.672 0 01-.501.232H1.708a.672.672 0 01-.5-.232A.844.844 0 011 16.14zm0-4.76c0-.21.075-.412.207-.561a.672.672 0 01.501-.232h15.584c.188 0 .368.083.5.232.133.149.208.35.208.561 0 .21-.075.412-.207.561a.672.672 0 01-.501.232H1.708a.672.672 0 01-.5-.232A.844.844 0 011 11.38zm0-4.76c0-.21.075-.412.207-.561a.672.672 0 01.501-.232h9.917c.188 0 .368.083.5.232.134.149.208.35.208.561 0 .21-.074.412-.207.561a.672.672 0 01-.501.232H1.708a.672.672 0 01-.5-.232A.844.844 0 011 6.62zm0-4.76c0-.21.075-.412.207-.561a.672.672 0 01.501-.232h15.584c.188 0 .368.083.5.232.133.149.208.35.208.561 0 .21-.075.412-.207.561a.672.672 0 01-.501.232H1.708a.672.672 0 01-.5-.232A.844.844 0 011 1.86z" fill="#6D7A86" stroke="#6D7A86" stroke-width=".25"/></svg>
+
+                            <div class="transcricao">
+                                <p class="txt-progresso">Transcrição</p>
+                                <p class="num-progresso">100%</p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conteiner-body-footer">
+
+            <div class="acesso-curso">
+                <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg"><title>4C578C0C-E646-4CB3-B77D-730A2F569953</title><path d="M12 7.999a.999.999 0 0 0-.427-.819l-10-7A1 1 0 0 0 0 .999V15a.999.999 0 0 0 1.573.819l10-7A.995.995 0 0 0 12 8.001v-.002c0 .001 0 .001 0 0z" fill="#FFFEFE" fill-rule="evenodd"/></svg>
+                <a href="#" class="txt-acessa-curso acess" >Acessar curso</a>
+            </div>
+
+            <div class="acesso-planoestudo">
+                <a href="#" class=" txt-acesso-planoestudo acess" >Adicionar a um Plano de Estudos</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7"><path fill="#747C81" d="M5.995 4.56L2.233.796A1.015 1.015 0 0 0 .797 2.233L5.02 6.455c.264.264.638.352.976.264.338.088.712 0 .976-.264l4.222-4.222A1.015 1.015 0 1 0 9.757.797L5.995 4.56z"/></svg>
+            </div>
+
+            <div class="acesso-outrasacoeas">
+                <a href="#" class=" txt-acesso-outrasacoeas acess">Outras Ações</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7"><path fill="#747C81" d="M5.995 4.56L2.233.796A1.015 1.015 0 0 0 .797 2.233L5.02 6.455c.264.264.638.352.976.264.338.088.712 0 .976-.264l4.222-4.222A1.015 1.015 0 1 0 9.757.797L5.995 4.56z"/></svg>
+            </div>
+            
+        </div>
+    </div>
+   
+</body>
+</html>

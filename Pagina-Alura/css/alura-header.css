@@ -1,0 +1,122 @@
+body{
+    font-family: Open sans, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.conteiner{
+    display: f;
+    
+    background-color: #051933;
+    width: 100vw;
+    height: 76px;
+}
+.nav-conteiner{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner-acesso{
+    border-top: 4px solid #2A7AE4;
+    width: 100vw;
+    height: 76px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+;
+}
+.titulo-alura{
+    fill: white;
+    font-family: Open sans, sans-serif;
+    transform: scale(1.2);
+    
+}
+
+.icon-busca{
+    color: white;
+    border-radius: 5px;
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    top: 0px;
+    padding: 3px;
+    background: #2A7AE4;
+    left: 208px;
+
+}
+.link-titulo{
+    padding-right: 165px;
+    margin-left: 40px;
+}
+.div-link a {
+    color: white;
+    text-decoration: none;
+    font-family: Open sans, sans-serif ;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0;
+    height: 100%;
+    text-decoration: none;
+}
+.sininho{
+    background-color: transparent;
+    width: 25px;
+    height: 22px;
+    color: white;
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+.acesso-usuario{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 50px;
+}
+.img-avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+}
+.usuario{
+    color: white;
+    text-decoration: none;
+    font-family: Open sans, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0;
+    height: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+.link-exp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+
+}
+.num-experiencia{
+    display: flex;
+    align-items: flex-end;
+    
+}
+.link-exp-valor{
+    color: white;
+    margin-bottom: 4px;
+    font-family: Open sans, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+.link-exp-valor:focus{
+    color: #2A7AE4;
+}
+.xp{
+    color: #03c2e0;;
+    margin-bottom: 4px;
+    font-family: Open sans, sans-serif;
+    font-weight: 700;
+    margin-left: 4px;
+    font-size: 13.5px;
+}
